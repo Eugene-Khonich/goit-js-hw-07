@@ -12,7 +12,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+button {
+  cursor: pointer;
+}
 a {
   display: inline-block;
   text-decoration: none;
@@ -108,6 +110,9 @@ img {
   width: 360px;
   height: 40px;
 }
+#name-input:hover {
+  border: 1px solid #000;
+}
 #name-input::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -131,6 +136,9 @@ img {
   width: 360px;
   height: 40px;
 }
+.login-form input:hover {
+  border: 1px solid #000;
+}
 .login-form button {
   border-radius: 8px;
   padding: 8px 16px;
@@ -142,4 +150,41 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.login-form button:hover {
+  background: #6c8cff;
+}
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.widget p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.change-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.change-color:hover {
+  background: #6c8cff;
 }
