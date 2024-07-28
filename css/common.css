@@ -86,3 +86,19 @@ img {
   flex-direction: column;
   gap: 8px;
 }
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 1440px;
+}
+.gallery-item {
+  width: 360px;
+  height: 300px;
+}
+.gallery li img {
+  width: 360px;
+}
