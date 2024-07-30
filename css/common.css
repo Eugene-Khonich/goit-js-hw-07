@@ -188,3 +188,33 @@ img {
 .change-color:hover {
   background: #6c8cff;
 }
+#controls {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+}
+#controls input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  outline: none;
+  width: 150px;
+  padding-left: 72px;
+}
+#controls button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+}
+[data-create] {
+  background: #4e75ff;
+  color: #fff;
+}
+[data-destroy] {
+  background: #ff4e4e;
+  color: #fff;
+}
