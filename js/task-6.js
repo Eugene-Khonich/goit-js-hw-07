@@ -32,7 +32,7 @@ function createItems() {
   if (input.value > 0 && input.value <= 100) {
     createBoxes(input.value);
   } else {
-    alert('Введіть значення від 1 до 100');
+    input.value = null;
   }
 }
 
