@@ -33,6 +33,7 @@ function createItems() {
     createBoxes(input.value);
   } else {
     input.value = null;
+    destroyBoxes();
   }
 }
 
